@@ -5,16 +5,7 @@ using System.Collections.Generic;
 public class Crosshair : MonoBehaviour
 {
     public Texture2D CrosshairTexture;
-    void Awake()
-    {
-
-    }
-
-    void Update()
-    {
-
-    }
-
+    
     void OnGUI()
     {
         float xMin = (Screen.width / 2) - (CrosshairTexture.width / 2);
